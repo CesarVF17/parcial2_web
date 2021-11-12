@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Encuesta</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<style>
+		.slider{
+			height: 100vh;
+			background-size: cover;
+			background-position: center;
+		}
+	</style>
+
+</head>
+<body style="background-image: url(fotodeplay.jpg)" style="background-position: center">
+	<font color="#dadae4">
+
+     <section  class="container-fluid slider d-flex justify-content-center align-items-center">
+
+	<h1>Encuesta</h1><hr><br>
+	</section>
+
+	<form method="GET" action="Encuesta.php">
+
+	<label style="" for="Nombre_a">Nombre del encuestado:</label><br>
+		<input type="text" name="Nombre_a" placeholder="Nombre del encuestado" required><br><br><br>
+
+		 <label for="Pregunta_1">1.Cuando se creo Sony?</label><br>
+		<input type="text" name="Pregunta_1" placeholder="Cuando se creo Sony?" required><br><br><br>
+
+		 <label for="Pregunta_2">2.Cual es el juego que gano los game awards?:</label><br><br>
+		<font color="#dadae4">a</font> <input class="rad" type="radio" name="Pregunta_2" value="a"><font color="#dadae4">The last of us 2</font> <br>
+		<font color="#dadae4">b</font> <input class="rad" type="radio" name="Pregunta_2" value="b"><font color="#dadae4">Gost of tushima</font><br>
+		
+		 <label for="Pregunta_3">3.Cual es la consola mas potente de PlayStation?:</label><br>
+		<input type="text" name="Pregunta_3" placeholder="Cual es la consola mas potente de PlayStation?" required><br><br><br>
+
+		 <label for="Pregunta_4">4.Para ti cual es el mejor juego de PlayStation?: </label><br>
+		<input type="text" name="Pregunta_4" placeholder="Para ti cual es el mejor juego de PlayStation?" required><br><br><br>
+
+		 <label for="Pregunta_5">5.Que juego gano los game awards 2018?:</label><br>
+		<input class="check" type="checkbox" name="Pregunta_5" value=" 1"><font color="#dadae4">God of ward</font><br>
+		<input class="check" type="checkbox" name="Pregunta_5" value=" 0"><font color="#dadae4">Naruto storm 4</font><br>
+		<input class="check"  type="checkbox" name="Pregunta_5" value=" 1"><font color="#dadae4">The last of us</font> <br>
+		<input class="check" type="checkbox" name="Pregunta_5" value=" 0"><font color="#dadae4">Horizon Zero Dawn</font><br><br><br>
+
+		 <label for="Pregunta_6">6. QUE JUEGO DE SONY TIENE MAS TROFEOS?</label><br>
+		<font color="#dadae4">a</font> <input class="rad" type="radio" name="Pregunta_6" value="a"><font color="#dadae4">The last of us 2</font><br>
+		<font color="#dadae4">b</font> <input class="rad" type="radio" name="Pregunta_6" value="b"><font color="#dadae4">God of war</font><br>
+		<font color="#dadae4">c</font> <input class="rad" type="radio" name="Pregunta_6" value="c"><font color="#dadae4">horizon zero dawn</font><br><br><br>
+
+		 <label for="Pregunta_7">7. Cuales son las conpetencia de PlayStation?</label><br>
+		<input class="check" type="checkbox" name="Pregunta_7" value="1 "><font color="#dadae4">.apple</font><br>
+		<input class="check" type="checkbox" name="Pregunta_7" value="1 "><font color="#dadae4">Nntendo,xbox,sega</font><br>
+		<input class="check" type="checkbox" name="Pregunta_7" value="1 "><font color="#dadae4">microsoft</font> <br>
+		<input class="check" type="checkbox" name="Pregunta_7" value="0 "><font color="#dadae4">mirage</font> <br>
+		<input class="check" type="checkbox" name="Pregunta_7" value="1 "><font color="#dadae4">nike</font><br><br><br>
+
+		 <label for="Pregunta_8">8. Sony con que consola se hizo conocida?:</label><br>
+		<font color="#dadae4">a</font> <input class="rad" type="radio" name="Pregunta_8" value="a"><font color="#dadae4">PS3</font><br>
+		<font color="#dadae4">b</font> <input class="rad" type="radio" name="Pregunta_8" value="b"><font color="#dadae4">PS5</font><br>
+		<font color="#dadae4">c</font> <input class="rad" type="radio" name="Pregunta_8" value="c"><font color="#dadae4">PS2</font><br><br><br>
+
+		 <label for="Pregunta_9">9.En cuantos colores salio la PS5:</label><br>
+		<input class="check" type="checkbox" name="Pregunta_9" value="1"><font color="#dadae4">1</font><br>
+		<input class="check" type="checkbox" name="Pregunta_9" value="0"><font color="#dadae4">3</font><br>
+		<input class="check" type="checkbox" name="Pregunta_9" value="2"><font color="#dadae4">6</font><br>
+		<input class="check" type="checkbox" name="Pregunta_9" value="0"><font color="#dadae4">2</font><br><br><br>
+
+		 <label for="Pregunta_10">10. cual es el nombre del juego mas vendido de PlayStation?:</label><br>
+		<input type="text" name="Pregunta_10" placeholder="cual es el nombre del juego mas vendido de PlayStation?" required><br><br><br>
+
+		
+
+		<input type="submit" value="Enviar" class="btn btn-success" >
+
+</font>
+	</form>
+</body>
+</html>
